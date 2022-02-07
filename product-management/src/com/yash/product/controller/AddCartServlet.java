@@ -15,6 +15,7 @@ import javax.servlet.http.HttpSession;
 import com.yash.product.dao.ProductDAO;
 import com.yash.product.model.ProductDTO;
 
+//this is Add to Cart Servlet
 @WebServlet("/AddCartServlet")
 public class AddCartServlet extends HttpServlet {
 
