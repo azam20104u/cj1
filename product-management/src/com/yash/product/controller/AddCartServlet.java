@@ -18,6 +18,7 @@ import com.yash.product.model.ProductDTO;
 @WebServlet("/AddCartServlet")
 public class AddCartServlet extends HttpServlet {
 
+	//List of Item added into cart
 	List<ProductDTO> liDtos=new ArrayList<ProductDTO>();
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
